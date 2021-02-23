@@ -30,6 +30,10 @@ $router->group(['prefix' => 'product'], function () use($router) {
     $router->delete('/{$product}', 'ProductController@destroy');
 });
 
+$router->group(['prefix' => 'auth'], function () use($router) { 
+    $router->post('/', 'AuthController@login');
+});
+
 /*
 $router->group(['prefix' => 'user'], function () { 
     $router->get('/', 'ProductController@index');
