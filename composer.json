@@ -8,7 +8,8 @@
         "php": "^7.2.5",
         "lcobucci/jwt": "^3.2",
         "namshi/jose": "^7.0",
-        "nesbot/carbon": "^1.0|^2.0"
+        "nesbot/carbon": "^1.0|^2.0",
+        "tymon/jwt-auth": "dev-develop"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.9.1",

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Laravel\Lumen\Routing\Controller as BaseController;
 use App\Category;
 
-class ProductController extends BaseController
+class CategoryController extends BaseController
 {
     private $category; 
 
